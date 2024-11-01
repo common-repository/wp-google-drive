@@ -1,0 +1,232 @@
+/* 
+	Theme Name: Google Drive
+	Author: securenext
+	Author URI: http://www.securenext.com
+	Version: 1.1
+	
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+	
+	Changelog:
+		v1.0 - 3/25/09 - Released theme
+		v1.1 - 8/1/09 - Optimized theme for SEO, localized theme for translation into any language
+*/
+
+
+.error_msg{
+     color:#FF0000;
+	 }
+	 
+.exclude_files{
+     float:left;
+	 width:160px;
+	 font-size:13px;
+	 }
+	 
+#exclude{
+    width:100%; 
+	float:left;
+	}
+	
+.exclude_checkbox{
+    float:left;
+	}	
+	
+#exclude_bkup{
+    width:20px; 
+	float:left
+}
+
+#database_backup{
+    position:relative;
+	bottom:5px;
+	font-size:13px;
+	width:59px !important;
+	}
+
+
+.dbase_backup{
+     width:100%;
+	 float:left;
+	 height:25px;
+	 margin-top:10px;
+	 }
+	 
+.mail_int{
+     width:100%;
+	 float:left;
+	 height:25px;
+	 margin-top:10px;
+   }	 
+	 
+.db_bkup{
+     width:220px;
+	 float:left;
+	 font-size:13px;
+	 }
+	 
+.bkup_mail{
+     width:225px;
+	 float:left;
+	 font-size:13px;
+   } 	 
+	 
+.db_select{
+     float:left;
+	 font-size:12px;
+	 }	
+	 
+.bkup_mail_select{
+    float:left;
+	font-size:12px;
+	
+   }	 
+
+h3 span {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.next_schedule{
+     font-size:13px;
+	 float:left;
+	 }
+	 	
+.backup_setting{
+     float:left;
+	 width:100%;
+	 }
+	 
+.conf_account{
+     font-size:13px;
+	 float:left;
+	 line-height:20px;
+	 }	
+	 
+.form-table{
+    /* border: 1px solid #CCCCCC !important;*/
+    border-collapse: collapse;
+    clear: both;
+    float: left;
+    font-size: 14px;
+    margin-top: 17px;
+    width: 55% !important;	 
+	} 
+	
+.form-table th {
+    font-size: 13px !important;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}	
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], select {
+    background-color: #FFFFFF;
+    border-color: #DFDFDF;
+    width:180px;
+	}
+	
+.submit{
+    width:100%;
+	float:left;
+	}			  	 	 	 
+
+.button-secondary{
+	color:#000 !important;
+	font-weight:bold;
+	font-size:12px;
+	width:75px !important;
+	}
+	
+.heading{
+    background:#F7F7F7;
+	font-size: 15px !important;
+    height: 22px;
+    padding: 6px 0 0 5px;
+    width: 100%;
+	color:#000;
+	float:left;
+	border:1px solid #DFDFDF;
+	}	
+	
+.button-primary{	
+     width:55px !important;
+	 }
+	 
+#backup_time{
+     width:100px;
+	 font-size:13px;
+	 }
+	 
+.goo_detail{
+     margin: 0;
+    padding: 0;
+    width: 257px;
+	text-align:center;
+}	 
+
+#bkp_loading{
+	color: green;
+	font-size: 15px;
+	margin: 20px 0 0 1px;
+}	 	 
+
+/* database manage  */
+
+.database_backup{
+    float: left;
+    height: 25px;
+    margin: 10px 0 0px 20px;
+    width: 97%;
+}
+
+
+.db_bk {
+    float: left;
+    font-size: 13px;
+    width: 350px;
+}	
+
+.db_bk_url{
+    float:left;
+	width:500px;
+	font-size:13px;
+	} 
+	
+.database_settings{
+     float:left;
+	 width:100%;
+	 margin:20px 0 0 0;
+	 height:100px;
+	 text-align:center;
+	 }	 
+	 
+.database_settings th{
+    background:#E4E4E4;
+	color:#2681AC;
+	width:20%;
+}
+
+.exclude_table{
+	float: left;
+	margin: 0 0 0 20px;	
+} 
+
+#gd_manage_list a{
+cursor:pointer;
+
+}
+	
+#gd_manage_list	.movetogd{
+  color:#21759B;
+  cursor:pointer;
+}
+
+#gd_manage_list	.no_movetogd{
+  color:#FF0000;
+}
+
+#mzip_loading,#sql_loading{
+  color:green;
+}
